@@ -1,0 +1,41 @@
+body {
+  background-color: #212121;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#user-input {
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.user-card {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  display: none; /* Initially hidden */
+}
+
+.user-card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.user-card h2 {
+  margin: 10px 0;
+}
+
+.user-card p {
+  color: #666;
+}

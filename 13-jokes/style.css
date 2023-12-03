@@ -1,0 +1,25 @@
+body {
+  background-color: #212121;
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#display-joke {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn {
+  padding: 10px;
+  margin-top: 40px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(234, 205, 210);
+  color: #f3d2d9;
+  cursor: pointer;
+  border: 2px solid white;
+}

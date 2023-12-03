@@ -1,0 +1,33 @@
+body {
+  background: rgb(17, 17, 17);
+}
+
+.header-content {
+  text-align: center;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  background-color: #62d316;
+  color: #181717;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* JavaScript */
+.cats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.random_cats {
+  width: 70%;
+}
+
+img {
+  width: 900px;
+}
