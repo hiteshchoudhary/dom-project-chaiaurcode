@@ -1,12 +1,15 @@
 html {
   font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
   width: 300px;
   max-width: 750px;
   min-width: 480px;
-  margin: 0 auto;
+  margin: auto;
   background-color: #212121;
 }
 
@@ -65,17 +68,18 @@ button {
 }
 
 .guesses {
-  background-color: #7a7a7a;
+  background-color: #474747;
 }
 
 #wrapper {
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 550px;
+  height: 650px;
   background-color: #474747;
   color: #fff;
   font-size: 25px;
+  margin: auto;
 }
 
 h1 {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
 
 body {
   height: 100vh;
@@ -17,7 +17,7 @@ body {
 h1 {
   color: #fff;
   font-size: 4rem;
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
 }
 
 p {
@@ -45,10 +45,8 @@ button {
 /* JavaScript */
 div.cursor {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   background: yellow;
   border-radius: 50%;
   transform: translate(-50%, -50%);
