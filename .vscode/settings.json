@@ -199,7 +199,11 @@
    * Controls whether suggestions should automatically show up while typing.
    * Defaults to true.
    */
-  "editor.quickSuggestions": true
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  }
   /**
    * Controls the delay in milliseconds after which quick suggestions will show up.
    * Defaults to 10 (ms).
