@@ -19,15 +19,17 @@ body {
 /* JavaScript */
 .cats {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  justify-content: center;
 }
 
 .random_cats {
-  width: 70%;
+  max-width: 70%;
+  height: auto;
 }
 
+/* to center the element */
+
 img {
-  width: 900px;
+  margin: 1% auto;
 }

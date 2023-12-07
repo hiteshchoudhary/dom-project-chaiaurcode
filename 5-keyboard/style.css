@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  border: 1px solid #e7e7e7;
+}
+.project {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.color {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+
+/* to increase the font of the keywords */
+.box {
+  font-size: 3rem;
+}
