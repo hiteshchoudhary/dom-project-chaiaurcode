@@ -10,7 +10,7 @@ body {
 
 #display-joke {
   font-size: 22px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .btn {
@@ -22,4 +22,14 @@ body {
   color: #f3d2d9;
   cursor: pointer;
   border: 2px solid white;
+}
+
+/* to display the jokes correctly */
+#result-div {
+  font-size: 25px;
+  margin: 3% auto;
+  max-width: 300px;
+  word-break: normal;
+  position: absolute;
+  text-align: center;
 }
